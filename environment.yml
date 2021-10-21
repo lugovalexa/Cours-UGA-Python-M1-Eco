@@ -1,11 +1,13 @@
-name: python 3.8.8
+name: cours-uga-m1-env
+channels:
+  - conda-forge
 dependencies:
-  - python=3.8.8
+  - python
   - numpy
-  - os
-  - builtins
-  - builtins
-  - sys
-  - matplotlib.pyplot
-  - matplotlib.cm
-  - types
+  - pip
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
+    - os
