@@ -3,4 +3,9 @@ dependencies:
   - python=3.8.8
   - numpy
   - os
-  - matplotlib
+  - builtins
+  - builtins
+  - sys
+  - matplotlib.pyplot
+  - matplotlib.cm
+  - types
